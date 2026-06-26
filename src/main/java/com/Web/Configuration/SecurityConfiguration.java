@@ -23,7 +23,6 @@ import lombok.RequiredArgsConstructor;
 
 @Configuration
 @EnableWebSecurity
-@RequiredArgsConstructor
 public class SecurityConfiguration {
 
 private final ClerkJwtAuthFilter jwtAuthFilter;
