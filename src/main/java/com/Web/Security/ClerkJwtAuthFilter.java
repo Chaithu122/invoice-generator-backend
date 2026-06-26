@@ -24,7 +24,6 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
 @Component
-@RequiredArgsConstructor
 public class ClerkJwtAuthFilter extends OncePerRequestFilter{
 	@Value("${clerk.issuer}")
 	private String clerkIssuer;

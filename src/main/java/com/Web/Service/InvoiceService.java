@@ -10,7 +10,6 @@ import com.Web.Repository.InvoiceRepository;
 import lombok.RequiredArgsConstructor;
 
 @Service
-@RequiredArgsConstructor
 public class InvoiceService {
 
 	private final InvoiceRepository invoiceRepository;
