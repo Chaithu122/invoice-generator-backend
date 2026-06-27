@@ -12,4 +12,4 @@ public class InvoiceGeneratorApplication {
 		SpringApplication.run(InvoiceGeneratorApplication.class, args);
 	}
 
-}
+}   
