@@ -45,16 +45,24 @@ git clone <your-repository-link>
 ```
 
 ### 2️⃣ Open the Project
+```
 Open the project in STS / IntelliJ / VS Code
+```
 
 ### 3️⃣ Create MySQL Database
+```
 CREATE DATABASE invoice_db;
+```
 
 ### 4️⃣ Configure application.properties
+```
 Set your database credentials and JWT secret key.
+```
 
 ### 5️⃣ Install Dependencies
+```
 mvn clean install
+```
 
 ### 6️⃣ Run the Application
 mvn spring-boot:run
