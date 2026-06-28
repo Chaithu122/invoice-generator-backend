@@ -24,7 +24,18 @@ This backend works with the frontend application to generate professional invoic
 - Maven Build Tool
 - REST APIs
 
-  ## 🔐 Security & Authentication
+## 🔐 Security & Authentication
+
+This project uses Spring Security with JWT (JSON Web Token) for authentication and authorization.
+
+### 🔹 Features
+
+- User registration and login
+- Password encryption using BCrypt
+- JWT token generation after login
+- Secure REST APIs using token-based authentication
+- Role-based authorization (USER / ADMIN)
+- Stateless session management
 
 
 
