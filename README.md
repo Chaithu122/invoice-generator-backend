@@ -65,7 +65,10 @@ mvn clean install
 ```
 
 ### 6️⃣ Run the Application
+```
 mvn spring-boot:run
+```
+
 
 
 
