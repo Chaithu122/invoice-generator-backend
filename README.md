@@ -8,4 +8,11 @@ This backend works with the frontend application to generate professional invoic
 
 ## ✨ Features
 
+- Create new invoices
+- Store invoice details in MySQL database
+- Retrieve all invoices
+- Get invoice details by ID
+- Delete invoices
+- RESTful API support for frontend integration
+
 
