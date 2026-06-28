@@ -108,6 +108,31 @@ jwt.expiration=86400000
 All invoice APIs require JWT token in request header:
 Authorization: Bearer <token>
 
+## ▶ How to Run the Project
+
+### 1️⃣ Start MySQL Server
+Make sure MySQL is running and database is created:
+CREATE DATABASE invoice_db;
+
+### 2️⃣ Configure Backend
+Update `application.properties` with your MySQL username and password.
+
+### 3️⃣ Build the Project
+mvn clean install
+
+### 4️⃣ Run the Application
+mvn spring-boot:run
+
+OR run main class:
+InvoiceBackendApplication.java
+
+### 5️⃣ Test APIs
+Use Postman to test endpoints:
+- Register User
+- Login User (get JWT token)
+- Access Invoice APIs using token
+
+
 
 
 
