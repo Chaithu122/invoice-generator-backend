@@ -6,4 +6,6 @@ The Invoice Generator Backend is a Spring Boot application designed to manage in
 
 This backend works with the frontend application to generate professional invoices in a simple and fast way.
 
+## ✨ Features
+
 
