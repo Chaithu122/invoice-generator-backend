@@ -96,7 +96,13 @@ jwt.expiration=86400000
 ### 🔹 Authentication APIs
 
 - POST `/api/auth/register` → Register new user  
-- POST `/api/auth/login` → Login user and generate JWT token  
+- POST `/api/auth/login` → Login user and generate JWT token
+
+### 🔹 Invoice APIs (Protected)
+- POST `/api/invoices` → Create new invoice  
+- GET `/api/invoices` → Get all invoices  
+- GET `/api/invoices/{id}` → Get invoice by ID  
+- DELETE `/api/invoices/{id}` → Delete invoice   
 
 
 
