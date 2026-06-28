@@ -39,8 +39,10 @@ This project uses Spring Security with JWT (JSON Web Token) for authentication a
 
   ## 🚀 Project Setup
 
-  ### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```
 git clone <your-repository-link>
+```
 
 ### 2️⃣ Open the Project
 Open the project in STS / IntelliJ / VS Code
