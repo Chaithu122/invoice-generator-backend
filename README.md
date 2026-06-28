@@ -69,6 +69,28 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+## ⚙ Application Properties
+
+Configure your database and JWT settings in `application.properties`.
+
+```properties
+# Server Port
+server.port=8080
+
+# MySQL Database Configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/invoice_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+
+# JPA Settings
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# JWT Secret Key
+jwt.secret=your_secret_key
+jwt.expiration=86400000
+```
+
 
 
 
