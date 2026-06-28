@@ -91,6 +91,11 @@ jwt.secret=your_secret_key
 jwt.expiration=86400000
 ```
 
+## 🌐 API Endpoints
+
+### 🔹 Authentication APIs
+
+
 
 
 
