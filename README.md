@@ -102,7 +102,11 @@ jwt.expiration=86400000
 - POST `/api/invoices` → Create new invoice  
 - GET `/api/invoices` → Get all invoices  
 - GET `/api/invoices/{id}` → Get invoice by ID  
-- DELETE `/api/invoices/{id}` → Delete invoice   
+- DELETE `/api/invoices/{id}` → Delete invoice
+
+### 🔐 Note:
+All invoice APIs require JWT token in request header:
+Authorization: Bearer <token>
 
 
 
