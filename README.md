@@ -95,6 +95,9 @@ jwt.expiration=86400000
 
 ### 🔹 Authentication APIs
 
+- POST `/api/auth/register` → Register new user  
+- POST `/api/auth/login` → Login user and generate JWT token  
+
 
 
 
