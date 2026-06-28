@@ -132,6 +132,17 @@ Use Postman to test endpoints:
 - Login User (get JWT token)
 - Access Invoice APIs using token
 
+  ## 👨‍💻 Author
+
+- Name: Krishna Chaithanya Pigilapu  
+- Project: Invoice Generator Backend  
+- Role: Full Stack Java Developer (Fresher)
+
+  ## 🎯 Conclusion
+
+This backend project demonstrates how to build a secure REST API using Spring Boot, Spring Security, JWT authentication, and MySQL database. It can be easily integrated with a frontend to generate professional invoices.
+
+
 
 
 
