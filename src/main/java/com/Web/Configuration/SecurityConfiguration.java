@@ -49,9 +49,10 @@ public SecurityConfiguration(ClerkJwtAuthFilter jwtAuthFilter) {
 	public CorsFilter corsFilter() {
 		return new CorsFilter(corsConfigurationSource());
 	}
-	private CorsConfigurationSource corsConfigurationSource() {
+	@Bean
+	public CorsConfigurationSource corsConfigurationSource() {
 		CorsConfiguration config=new CorsConfiguration();
-		config.setAllowedOrigins(List.of("http://localhost:5173","https://vocal-fairy-57453c.netlify.app"));
+		config.setAllowedOrigins(List.of("http://localhost:5173", "https://luminous-klepon-08541f.netlify.app"));
 		config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","PATCH","OPTIONS"));
 		config.setAllowedHeaders(List.of("Authorization","Content-Type"));
 		config.setAllowCredentials(true);
