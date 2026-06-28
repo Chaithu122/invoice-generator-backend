@@ -24,4 +24,7 @@ This backend works with the frontend application to generate professional invoic
 - Maven Build Tool
 - REST APIs
 
+  ## 🔐 Security & Authentication
+
+
 
