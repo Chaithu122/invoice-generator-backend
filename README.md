@@ -15,4 +15,13 @@ This backend works with the frontend application to generate professional invoic
 - Delete invoices
 - RESTful API support for frontend integration
 
+  ## 🛠 Tech Stack
+
+- Java 
+- Spring Boot
+- Spring Data JPA
+- MySQL Database
+- Maven Build Tool
+- REST APIs
+
 
